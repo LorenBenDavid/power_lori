@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <!-- App Identity -->
+  <key>CFBundleDisplayName</key>
+  <string>PL.AI</string>
+  <key>CFBundleIdentifier</key>
+  <string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+  <key>CFBundleVersion</key>
+  <string>$(CURRENT_PROJECT_VERSION)</string>
+  <key>CFBundleShortVersionString</key>
+  <string>$(MARKETING_VERSION)</string>
+  <key>CFBundleExecutable</key>
+  <string>$(EXECUTABLE_NAME)</string>
+  <key>CFBundlePackageType</key>
+  <string>APPL</string>
+
+  <!-- iOS Deployment -->
+  <key>MinimumOSVersion</key>
+  <string>17.0</string>
+  <key>LSRequiresIPhoneOS</key>
+  <true/>
+  <key>UISupportedInterfaceOrientations</key>
+  <array>
+    <string>UIInterfaceOrientationPortrait</string>
+  </array>
+  <key>UIRequiresFullScreen</key>
+  <true/>
+
+  <!-- App Transport Security — HTTPS enforced -->
+  <key>NSAppTransportSecurity</key>
+  <dict>
+    <key>NSAllowsArbitraryLoads</key>
+    <false/>
+  </dict>
+
+  <!-- Supabase Config (anon key — client-safe) -->
+  <key>SUPABASE_URL</key>
+  <string>$(SUPABASE_URL)</string>
+  <key>SUPABASE_ANON_KEY</key>
+  <string>$(SUPABASE_ANON_KEY)</string>
+
+  <!-- Backend URL -->
+  <key>BACKEND_URL</key>
+  <string>$(BACKEND_URL)</string>
+
+  <!-- Sign in with Apple entitlement is configured in Xcode → Signing & Capabilities -->
+  <!-- No Info.plist key needed — handled by AuthenticationServices framework -->
+
+  <!-- Push Notifications — UserNotifications framework -->
+  <key>UIBackgroundModes</key>
+  <array>
+    <string>remote-notification</string>
+  </array>
+
+  <!-- Privacy descriptions -->
+  <key>NSCameraUsageDescription</key>
+  <string>Camera is not used by this app.</string>
+
+  <!-- Dark mode support -->
+  <key>UIUserInterfaceStyle</key>
+  <string>Dark</string>
+
+  <!-- Launch Screen -->
+  <key>UILaunchScreen</key>
+  <dict/>
+</dict>
+</plist>

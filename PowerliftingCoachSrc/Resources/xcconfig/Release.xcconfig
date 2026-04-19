@@ -1,0 +1,10 @@
+// PL.AI – Release / Production Configuration
+// Copy to Secrets.Release.xcconfig (gitignored) and fill in your values
+
+SUPABASE_URL = https://your-project.supabase.co
+SUPABASE_ANON_KEY = your_supabase_anon_key_here
+BACKEND_URL = https://your-backend.railway.app
+
+PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.PowerliftingCoach
+MARKETING_VERSION = 1.0.0
+CURRENT_PROJECT_VERSION = 1

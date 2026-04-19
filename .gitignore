@@ -1,0 +1,36 @@
+# PL.AI .gitignore
+
+# Secrets — NEVER commit these
+backend/.env
+PowerliftingCoach/Resources/xcconfig/Secrets.xcconfig
+PowerliftingCoach/Resources/xcconfig/Secrets.Release.xcconfig
+
+# Xcode
+*.xcuserstate
+xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xccheckout
+*.moved-aside
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Node.js
+node_modules/
+backend/node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+*.swp

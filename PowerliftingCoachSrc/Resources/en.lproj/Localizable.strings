@@ -1,0 +1,61 @@
+/* PL.AI – English (en) Localizable Strings */
+/* Hebrew localization deferred to v2 per PRD */
+
+/* Auth */
+"auth.sign_in" = "Sign In";
+"auth.sign_up" = "Sign Up";
+"auth.sign_in_apple" = "Sign in with Apple";
+"auth.email" = "Continue with Email";
+"auth.phone" = "Continue with Phone";
+"auth.sign_out" = "Sign Out";
+
+/* Onboarding */
+"onboarding.first_name" = "What's your first name?";
+"onboarding.last_name" = "And your last name?";
+"onboarding.gender" = "What's your gender?";
+"onboarding.age" = "How old are you?";
+"onboarding.weight" = "Your body weight";
+"onboarding.height" = "Your height";
+"onboarding.experience" = "Training experience";
+"onboarding.days" = "Training days per week";
+"onboarding.goal" = "What's your primary goal?";
+"onboarding.lifts" = "Focus lifts";
+"onboarding.summary" = "Review your profile";
+"onboarding.next" = "Next";
+"onboarding.back" = "Back";
+"onboarding.submit" = "Submit";
+"onboarding.generating" = "Generating your first program...";
+
+/* Dashboard */
+"dashboard.title" = "Training";
+"dashboard.this_week" = "This Week";
+"dashboard.sessions" = "Sessions";
+"dashboard.streak" = "Streak";
+"dashboard.week_complete" = "Week Complete!";
+"dashboard.generate_next" = "Generate next week's program";
+
+/* Session */
+"session.complete" = "Complete Workout";
+"session.start_set" = "Start Set";
+"session.log_set" = "Log Set";
+"session.rest" = "Rest";
+"session.skip" = "Skip";
+"session.rpe_guide" = "RPE Guide";
+
+/* Progress */
+"progress.title" = "Progress";
+"progress.e1rm" = "Estimated 1RM";
+"progress.avg_rpe" = "Average RPE per Week";
+"progress.history" = "Session History";
+
+/* Chat */
+"chat.title" = "AI Coach";
+"chat.placeholder" = "Ask your coach...";
+"chat.injury_flag" = "Injury mentioned";
+"chat.swap_flag" = "Exercise swap requested";
+
+/* Profile */
+"profile.title" = "Profile";
+"profile.edit" = "Edit Profile";
+"profile.notifications" = "Notifications";
+"profile.sign_out" = "Sign Out";

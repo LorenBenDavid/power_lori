@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  Required entitlements for PL.AI
+  Configure in Xcode → Target → Signing & Capabilities
+-->
+<plist version="1.0">
+<dict>
+  <!-- Sign in with Apple — REQUIRED by App Store when any social login exists -->
+  <key>com.apple.developer.applesignin</key>
+  <array>
+    <string>Default</string>
+  </array>
+
+  <!-- Push Notifications -->
+  <key>aps-environment</key>
+  <string>development</string>
+
+  <!-- Keychain Sharing (for session token storage) -->
+  <key>keychain-access-groups</key>
+  <array>
+    <string>$(AppIdentifierPrefix)com.yourcompany.PowerliftingCoach</string>
+  </array>
+</dict>
+</plist>
